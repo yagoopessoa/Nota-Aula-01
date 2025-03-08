@@ -21,7 +21,7 @@ public class Produto {
                 quantidadeEmEstoque -= quantidadeVenda;
                 return quantidadeEmEstoque;
             }else{
-                System.out.println("O valor deve ser maior que 0");
+                System.out.println("Valor inválido");
                 return quantidadeEmEstoque;
             }
         }
