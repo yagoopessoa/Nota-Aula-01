@@ -18,6 +18,6 @@ public class Main {
 
         System.out.println("Digite o valor para Saque: ");
         System.out.println("Saldo bancário: R$ " + cb.saque(sc.nextDouble()));
-
+    sc.close();
     }
 }
